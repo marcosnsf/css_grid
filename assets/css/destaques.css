@@ -6,10 +6,27 @@
     height: calc(100vh - 50px);
 }
 .destaques__principal{
-    background: url(../img/fortnite.jpg) no-repeat center ;
-    background-size: cover;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    background: url('../img/fortnite.jpg') no-repeat center  / cover;
+    grid-column: 1 / 4; /*Onde começa e termina grid-colomn*/
+    grid-row: 1 / 3;    /*Onde começa e termina grid-row*/
+}
+.destaques__secundario:nth-child(2){ /*nth-child(xx): identifica posição usando mesma classe */
+    background: url('../img/pubg.jpg')no-repeat center / cover;
+    grid-column:4 / 4; /*Onde começa e termina grid-colomn*/
+    grid-row:1 / 1;   /*Onde começa e termina grid-row*/
+}
+.destaques__secundario:nth-child(3){ /*nth-child(xx): identifica posição usando mesma classe */
+    background: url('../img/slack.png') no-repeat center / cover;
+    grid-column: 4 / 4; /*Onde começa e termina grid-colomn*/
+    grid-row: 2 / 2;   /*Onde começa e termina grid-row*/
+}
+.destaques__secundario:nth-child(4){ /*nth-child(xx): identifica posição usando mesma classe */
+    background: url('../img/whatsapp.png') no-repeat center / cover;
+    grid-column: 4 / 4; /*Onde começa e termina grid-colomn*/
+    grid-row: 3 / 3;   /*Onde começa e termina grid-row*/
+}
+.destaques__secundario:nth-child(5){/*nth-child(xx): identifica posição usando mesma classe */
+    background: url('../img/cs-go.jpg') no-repeat center / cover;
+    grid-column: 3 / 3;  /*Onde começa e termina grid-colomn*/
+    grid-row: 3 / 3;    /*Onde começa e termina grid-row*/
 }
