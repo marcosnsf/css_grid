@@ -1,9 +1,22 @@
 
 .destaques{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 33.33% 33.33% 33.33%;
-    height: calc(100vh - 50px);
+    display: grid;/*define tudo que esta encapsulado como grid*/
+    grid-gap: .2rem;/*coloca espaçamento entre as linhas e colunas*/
+    grid-template-columns: 25% 25% 25% 25%;/*define tamanho de cada e quantas colunas vai ter*/
+    grid-template-rows: 33.33% 33.33% 33.33%;/*define tamanho de cada e quantas linhas vai ter*/
+    height: calc(100vh - 50px);/*Definindo tamanho de conteudo proporcional com o tamanho da  tela*/
+}
+.caixa{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.destaques__titulo{
+    width: 100%;
+    background: rgba(0,0,0, .5);
+    color: #fdfdfd;
+    padding: .6rem;
+    text-align: center;
 }
 .destaques__principal{
     background: url('../img/fortnite.jpg') no-repeat center  / cover;
@@ -50,5 +63,5 @@
     width: 50%;
 }
 .destaques__categorias___link{
-    color: inherit;
+    color: inherit;/*tira a cor do link deixnado com a cor do elemento pai*/
 }
