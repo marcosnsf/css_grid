@@ -43,6 +43,14 @@
     grid-column: 3 / 3;  /*Onde começa e termina grid-colomn*/
     grid-row: 3 / 3;    /*Onde começa e termina grid-row*/
 }
+.destaques__principal:hover{/*excluir esse  hover caso tenha problema com o rensposivo depois*/
+    background-size: calc(100% + .5rem);
+    font-size: 1.1rem;
+}
+.destaques__secundario:hover{/*excluir esse  hover caso tenha problema com o rensposivo depois*/
+    background-size: calc(100% + 1rem);
+    font-size: 1.1rem;
+}
 .destaques__categorias{
     grid-column: 1 / 3;
     grid-row: 3 / 3;
