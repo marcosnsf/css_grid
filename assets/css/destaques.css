@@ -65,8 +65,8 @@
 }
 .destaques__categorias___item:hover{
     transition-delay: 0.1s;
-    border: black solid 1px;
-    background: rgba(0,0,0,0.2);
+    border: #0073e6 solid 1px;
+    background: rgba(0, 115, 230, 0.3);
     color: black;
 }
 .destaques__categorias___link{
