@@ -56,11 +56,18 @@
 .destaques__categorias___item{
     display: flex;
     align-items: center;
+    justify-content: center;
     border-left: 4px solid transparent;
     background: #fdfdfd;
     color: #333333;
     padding: 1rem;
     width: 50%;
+}
+.destaques__categorias___item:hover{
+    transition-delay: 0.1s;
+    border: black solid 1px;
+    background: rgba(0,0,0,0.2);
+    color: black;
 }
 .destaques__categorias___link{
     color: inherit;/*tira a cor do link deixnado com a cor do elemento pai*/
