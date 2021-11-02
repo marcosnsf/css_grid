@@ -52,18 +52,18 @@
     color: #333333;
     line-height: 1.5;
     margin: 1rem 0;
-    text-align: justify;
+    text-align: ce;
+}
+.populares__cabecalho{
+    border-bottom: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: space-between;
 }
 .populares__titulo{
     font-weight: 500;
 }
 .populares__icone{
     margin-right: .25rem;
-}
-.populares__cabecalho{
-    border-bottom: 1px solid #dcdcdc;
-    display: flex;
-    justify-content: space-between;
 }
 .populares__botao{
     background: transparent;
