@@ -44,11 +44,11 @@
     grid-row: 3 / 3;    /*Onde começa e termina grid-row*/
 }
 .destaques__principal:hover{/*excluir esse  hover caso tenha problema com o rensposivo depois*/
-    background-size:calc(100% + 10rem) ;
+    cursor: pointer;
     font-size: 1.1rem;
 }
 .destaques__secundario:hover{/*excluir esse  hover caso tenha problema com o rensposivo depois*/
-    background-size: calc(100% + 5rem);
+    cursor: pointer;
     font-size: 1.1rem;
 }
 .destaques__categorias{
